@@ -1,54 +1,46 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import styled from "styled-components";
+import { Layout } from "@components";
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+const StyledMainContainer = styled.main`
+  ${({ theme }) => theme.mixins.flexCenter};
+  flex-direction: column;
+`;
+const StyledTitle = styled.h1`
+  color: var(--orange);
+  font-family: var(--font-mono);
+  font-size: clamp(100px, 25vw, 200px);
+  line-height: 1;
+`;
+const StyledSubtitle = styled.h2`
+  font-size: clamp(30px, 5vw, 50px);
+  font-weight: 400;
+`;
+const StyledHomeButton = styled(Link)`
+  ${({ theme }) => theme.mixins.bigButton};
+  margin-top: 40px;
+`;
 
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+const NotFoundPage = ({ location }) => {
+  const content = (
+    <StyledMainContainer className="fillHeight">
+      <StyledTitle>404</StyledTitle>
+      <StyledSubtitle>Page Not Found</StyledSubtitle>
+      <StyledHomeButton to="/">Go Home</StyledHomeButton>
+    </StyledMainContainer>
+  );
 
-// markup
-const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+    <Layout location={location}>
+      <>{content}</>
+    </Layout>
+  );
+};
 
-export default NotFoundPage
+NotFoundPage.propTypes = {
+  location: PropTypes.object.isRequired,
+};
+
+export default NotFoundPage;

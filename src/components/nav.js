@@ -41,14 +41,17 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
-      width: 42px;
-      height: 42px;
+      color: var(--orange);
+
+      h3 {
+        margin: 0;
+        color: var(--orange);
+      }
 
       &:hover,
       &:focus {
         svg {
-          fill: var(--green-tint);
+          fill: var(--orange-tint);
         }
       }
 
@@ -87,7 +90,7 @@ const StyledLinks = styled.div`
         &:before {
           content: "0" counter(item) ".";
           margin-right: 5px;
-          color: var(--green);
+          color: var(--orange);
           font-size: var(--fz-xxs);
           text-align: right;
         }
@@ -95,7 +98,7 @@ const StyledLinks = styled.div`
     }
   }
 
-  .resume-button {
+  .blog-button {
     ${({ theme }) => theme.mixins.smallButton};
     margin-left: 15px;
     font-size: var(--fz-xs);
@@ -106,20 +109,15 @@ const Nav = () => {
   const Logo = (
     <div className="logo" tabIndex="-1">
       <a href="/" aria-label="home">
-        <IconLogo />
+        <h3>tonystrawberry.codes</h3>
       </a>
     </div>
   );
 
   const ResumeLink = (
-    <a
-      className="resume-button"
-      href="/resume.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Resume
-    </a>
+    <Link className="blog-button" to="/journal">
+      Blog
+    </Link>
   );
 
   return (

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { Nav, Social, Email } from "@components";
+import { Nav, Social, Email, Footer } from "@components";
 import { GlobalStyle, theme } from "@styles";
 
 const StyledContent = styled.div`
@@ -9,7 +9,7 @@ const StyledContent = styled.div`
   min-height: 100vh;
 `;
 
-const Layout = ({ location }) => {
+const Layout = ({ children, location }) => {
   // Sets target="_blank" rel="noopener noreferrer" on external links
   const handleExternalLinks = () => {
     const allLinks = Array.from(document.querySelectorAll("a"));
@@ -48,6 +48,10 @@ const Layout = ({ location }) => {
             <Nav />
             <Social />
             <Email />
+
+            <div id="content">{children}</div>
+
+            <Footer />
           </StyledContent>
         </ThemeProvider>
       </div>
