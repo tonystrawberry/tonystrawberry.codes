@@ -52,16 +52,12 @@ const Hero = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id lacus
         quis lorem fringilla molestie vel quis sapien. Maecenas a massa quam.
         Donec non tellus vel purus imperdiet volutpat. Proin quam ligula,
-        scelerisque ac laoreet vitae, imperdiet a nunc. Donec rutrum laoreet
-        ligula id tempus. Fusce porttitor nec quam sed sollicitudin. Vestibulum
-        imperdiet, odio vitae euismod finibus, mauris nisl dictum ipsum, ac
-        mollis lectus nunc vel metus. Proin posuere maximus augue, sed vulputate
-        lorem dictum at.
+        scelerisque ac laoreet vitae, imperdiet a nunc. Donec rutrum laoreet.
       </p>
     </>
   );
   const five = (
-    <Link className="email-link" to="/blog">
+    <Link className="email-link" to="/journal">
       Check out my journal!
     </Link>
   );

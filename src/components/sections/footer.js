@@ -25,7 +25,7 @@ const StyledSocialLinks = styled.div`
   }
 
   ul {
-    ${({ theme }) => theme.mixins.flexBetween};
+    ${({ theme }) => theme.mixins.flexCenter};
     padding: 0;
     margin: 0;
     list-style: none;

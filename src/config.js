@@ -10,6 +10,10 @@ module.exports = {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/tony-duong-ets",
     },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/tonysbcodes",
+    },
   ],
 
   navLinks: [
@@ -32,8 +36,8 @@ module.exports = {
   ],
 
   colors: {
-    green: "#64ffda",
-    navy: "#0a192f",
-    darkNavy: "#020c1b",
+    orange: "#ffc045",
+    navy: "#003f57",
+    darkNavy: "#053e54",
   },
 };

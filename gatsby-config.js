@@ -47,7 +47,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
+              tracedSVG: { color: config.colors.orange },
             },
           },
           {
@@ -117,6 +117,18 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Tony Duong",
+        short_name: "Tony Duong",
+        start_url: "/",
+        background_color: config.colors.darkNavy,
+        theme_color: config.colors.navy,
+        display: "minimal-ui",
+        icon: "src/images/logo.png",
       },
     },
   ],

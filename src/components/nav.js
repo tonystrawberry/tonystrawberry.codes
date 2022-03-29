@@ -114,7 +114,7 @@ const Nav = () => {
     </div>
   );
 
-  const ResumeLink = (
+  const JournalLink = (
     <Link className="blog-button" to="/journal">
       Blog
     </Link>
@@ -134,7 +134,7 @@ const Nav = () => {
               ))}
           </ol>
 
-          {ResumeLink}
+          {JournalLink}
         </StyledLinks>
 
         <Menu />

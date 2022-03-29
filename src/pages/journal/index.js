@@ -9,8 +9,14 @@ import { IconBookmark } from "@components/icons";
 
 const StyledMainContainer = styled.main`
   & > header {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    & > header {
+      margin-top: 50px;
+    }
   }
 
   footer {
