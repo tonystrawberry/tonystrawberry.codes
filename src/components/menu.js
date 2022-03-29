@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { navLinks } from "@config";
@@ -182,6 +183,10 @@ const Menu = () => {
 
   return (
     <StyledMenu>
+      <Helmet>
+        <body className={menuOpen ? "blur" : ""} />
+      </Helmet>
+
       <div ref={wrapperRef}>
         <StyledHamburgerButton
           onClick={toggleMenu}
