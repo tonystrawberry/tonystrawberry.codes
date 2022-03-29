@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { Nav } from "@components";
+import { Nav, Social, Email } from "@components";
 import { GlobalStyle, theme } from "@styles";
 
 const StyledContent = styled.div`
@@ -46,6 +46,8 @@ const Layout = ({ location }) => {
 
           <StyledContent>
             <Nav />
+            <Social />
+            <Email />
           </StyledContent>
         </ThemeProvider>
       </div>
