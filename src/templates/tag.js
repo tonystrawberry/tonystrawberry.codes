@@ -71,7 +71,7 @@ const TagTemplate = ({ pageContext, data, location }) => {
             return (
               <li key={slug}>
                 <h2>
-                  <Link to={slug}>{title}</Link>
+                  <Link to={`/journal/${slug}`}>{title}</Link>
                 </h2>
                 <p className="subtitle">
                   <time>
