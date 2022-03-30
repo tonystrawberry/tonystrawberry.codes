@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
@@ -168,7 +168,8 @@ const ArchivePage = ({ location, data }) => {
                       </td>
 
                       <td className="tech hide-on-mobile">
-                        {tech.length > 0 &&
+                        {tech &&
+                          tech.length > 0 &&
                           tech.map((item, i) => (
                             <span key={i}>
                               {item}

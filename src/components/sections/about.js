@@ -115,9 +115,10 @@ const About = () => {
   const skills = [
     "JavaScript (ES6+)",
     "TypeScript",
+    "Vue",
     "React",
     "Ruby",
-    "Node.js",
+    "Node",
     "Gatsby",
   ];
 
@@ -129,26 +130,36 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id
-              lacus quis lorem fringilla molestie vel quis sapien. Maecenas a
-              massa quam. Donec non tellus vel purus imperdiet volutpat. Proin
-              quam ligula, scelerisque ac laoreet vitae, imperdiet a nunc. Donec
-              rutrum laoreet ligula id tempus. Fusce porttitor nec quam sed
-              sollicitudin. Vestibulum imperdiet, odio vitae euismod finibus,
-              mauris nisl dictum ipsum, ac mollis lectus nunc vel metus. Proin
-              posuere maximus augue, sed vulputate lorem dictum at.
+              Bonjour! Hello! こんにちは！ 👋 <br></br>My name is Tony and I
+              love learning about web technologies and creating applications on
+              the web.
             </p>
 
             <p>
-              Lorem ipsum dolor sit <a href="">amet</a>, consectetur adipiscing
-              elit. Mauris id lacus quis lorem fringilla molestie vel quis
-              sapien. Maecenas a massa quam. <a href="">Donec</a> non tellus vel
-              purus imperdiet volutpat. Proin quam ligula, scelerisque ac
-              laoreet vitae, imperdiet a nunc. Donec rutrum laoreet ligula id
-              tempus. Fusce porttitor nec quam sed sollicitudin. Vestibulum
-              imperdiet, odio vitae euismod finibus, mauris nisl dictum ipsum,
-              ac mollis lectus nunc vel metus. Proin posuere maximus augue, sed
-              vulputate lorem dictum at.
+              I've had the privilege of working at{" "}
+              <a
+                href="https://www.seido-japan.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                an e-commerce company
+              </a>{" "}
+              where I did my first steps as a full-stack developer, and{" "}
+              <a
+                href="https://overflow.co.jp"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                a start-up
+              </a>
+              that helped me become even better at my craft.
+            </p>
+
+            <p>
+              I recently joined{" "}
+              <a href="https://monstar-lab.com/global/">Monstarlab</a>, a
+              digital experience development studio, to help them build
+              exceptional products for the world 🌍
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

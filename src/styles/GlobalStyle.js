@@ -345,7 +345,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    background-color: var(--lightest-navy);
+    background-color: var(--orange-tint);
     height: 1px;
     border-width: 0px;
     border-style: initial;

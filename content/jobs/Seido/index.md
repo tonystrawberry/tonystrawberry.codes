@@ -1,12 +1,14 @@
 ---
-date: "2018-05-14"
-title: "Engineer"
+date: "2018-02-01"
+title: "Full-stack Web Developer"
 company: "Seido"
 location: "Tokyo, JP"
-range: "July 2019 - Present"
-url: "https://overflow.co.jp/"
+range: "February 2018 - September 2019"
+url: "https://www.seido-japan.com/"
 ---
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id lacus quis lorem fringilla molestie vel quis sapien. Maecenas a massa quam
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id lacus quis lorem fringilla molestie vel quis sapien. Maecenas a massa quam
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id lacus quis lorem fringilla molestie vel quis sapien. Maecenas a massa quam
+- Develop a centralized multi-task web application from scratch in a maintainable and extensible way
+- Identify business tasks and processes that could accelerated with digital tools and provide a solution
+- Increase the daily productivity of the employees by building productive apps and tools
+- Take decisions on the technologies to be adopted
+- Work autonomously as a lone engineer directly under the CEO

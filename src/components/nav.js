@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import { navLinks } from "@config";
 import { Menu } from "@components";
-import { IconLogo } from "@components/icons";
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};

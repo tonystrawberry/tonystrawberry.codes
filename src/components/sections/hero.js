@@ -49,16 +49,22 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id lacus
-        quis lorem fringilla molestie vel quis sapien. Maecenas a massa quam.
-        Donec non tellus vel purus imperdiet volutpat. Proin quam ligula,
-        scelerisque ac laoreet vitae, imperdiet a nunc. Donec rutrum laoreet.
+        I'm a software engineer based in Tokyo specializing in building web
+        applications. Currently, I'm focused on building exceptional products at{" "}
+        <a
+          href="https://monstar-lab.com/global/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Monstarlab
+        </a>
+        .
       </p>
     </>
   );
   const five = (
     <Link className="email-link" to="/journal">
-      Check out my journal!
+      Check out my journal 📔
     </Link>
   );
 
