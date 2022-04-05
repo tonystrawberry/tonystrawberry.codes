@@ -124,6 +124,7 @@ const StyledPost = styled.li`
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
+    margin-left: 1.5rem;
     list-style: none;
 
     li {
