@@ -48,7 +48,7 @@ You only need to create an account on their website, follow the "how to get star
 
 As a result, you will have a **completely functional payment system in less than 30 minutes**. As you can see in the diagram below, ExtPay is handling all the interactions with Stripe and making our lives easier so we can just focus on the core functionalities of our apps.
 
-![ExtensionPay Application Flow](./extpay-diagram.drawio.png)
+![ExtensionPay Application Flow](./extpay-diagram.png)
 
 ### PROS 🥰
 
@@ -87,11 +87,11 @@ Beforehand, it is necessary to setup [Firebase Authentication](https://firebase.
 
 To authenticate a user through the popup, I make use of [FirebaseUI](https://firebase.google.com/docs/auth/web/firebaseui#:~:text=FirebaseUI%20is%20a%20library%20built,Twitter%20and%20GitHub%20sign%2Din.) library for handling my user sign-in/sign-up flows. Below you can see the sign-in/sign-up component of the extension.
 
-![Firebase UI](./firebase_ui.png)
+![Firebase UI](./firebase-ui.png)
 
 As a side note, it is also necessary to add your Chrome extension domain in the `Authorized domains` section in Firebase Authentication. This [documentation](https://cloud.google.com/identity-platform/docs/web/chrome-extension) might help you in setting up your authentication system.
 
-![Authorized domains](./authorized_domains.png)
+![Authorized domains](./authorized-domains.png)
 
 #### One time payment with Stripe
 
@@ -106,7 +106,7 @@ Before installing it, (as described in the documentation) I had to make sure the
 
 After that, I installed it into my Firebase project and it will create automatically the following Cloud Functions.
 
-![Cloud functions](./cloud_functions.png)
+![Cloud functions](./cloud-functions.png)
 
 We can see that this extension already executes automatically actions on specific events so that we don't have to do it by ourselves. I try to explain in simple terms what they are actually doing.
 
