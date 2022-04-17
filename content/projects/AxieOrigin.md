@@ -13,4 +13,4 @@ showInProjects: true
 ---
 
 An Axie Infinity: Origin resource visualizer for players.
-API Documentation: https://documenter.getpostman.com/view/3211221/Uyr5nyyy
+[API Documentation](https://documenter.getpostman.com/view/3211221/Uyr5nyyy)

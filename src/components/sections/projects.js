@@ -69,6 +69,10 @@ const StyledProject = styled.li`
     border-radius: var(--border-radius);
     background-color: var(--light-navy);
     transition: var(--transition);
+
+    header {
+      max-width: 100%;
+    }
   }
 
   .project-top {
