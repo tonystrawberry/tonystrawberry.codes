@@ -21,12 +21,17 @@
 npm install
 ```
 
-2. Run the application in your local environment.
+2. Create `.env.development` at the root of the folder and fill it with the Contentful access token (https://app.contentful.com/spaces/t02nj6yoj535/api/keys/228dRwkx7bjFv6tnUVwxHS).
+```
+CONTENTFUL_ACCESS_TOKEN=${token}
+```
+
+3. Run the application in your local environment.
 ```
 npm run develop
 ```
 
-3. Access the website via localhost.
+4. Access the website via localhost.
 ```
 http://localhost:8000/
 ```
