@@ -117,6 +117,7 @@ const About = () => {
     "TypeScript",
     "Vue",
     "React",
+    "Rails",
     "Ruby",
     "Node",
     "Gatsby",
