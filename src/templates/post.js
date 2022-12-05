@@ -1,9 +1,9 @@
-import React from "react";
+import { Layout } from "@components";
 import { graphql, Link } from "gatsby";
 import kebabCase from "lodash/kebabCase";
 import PropTypes from "prop-types";
+import React from "react";
 import styled from "styled-components";
-import { Layout } from "@components";
 
 const StyledPostContainer = styled.main`
   max-width: 1000px;
@@ -46,6 +46,11 @@ const StyledPostContent = styled.div`
   pre code {
     background-color: transparent;
     padding: 0;
+  }
+
+  li {
+    margin: 6px 0;
+    color: var(--light-slate);
   }
 `;
 
