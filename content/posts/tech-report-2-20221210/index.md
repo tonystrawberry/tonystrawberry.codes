@@ -3,7 +3,7 @@ title: "Tech report #2 🔖 My first AWS examination and a summary of the React 
 description:
 date: 2022-12-10
 draft: false
-slug: tech-report-1-20221210
+slug: tech-report-2-20221210
 tags:
   - Report
   - AWS
