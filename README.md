@@ -10,7 +10,7 @@
 ## 🖥 Personal website of Tony Duong
 
 - 🛠 Built with <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>
-- 👩‍🎨 Inspired by the design of Brittany Chiang personal website <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a>
+- 👩‍🎨 Forked the design of Brittany Chiang personal website <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a>
 - 🚀 Deploys with <a href="https://app.netlify.com/sites/tonystrawberry/overview" target="_blank">Netlify</a> automatically on each commit to `main` branch
 - 🎨 Uses <a href="https://github.com/styled-components/styled-components" target="_blank">styled-components</a> to write CSS for each components inside the JS code
 

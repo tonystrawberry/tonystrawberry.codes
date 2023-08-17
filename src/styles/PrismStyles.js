@@ -152,6 +152,9 @@ const PrismStyles = css`
   .gatsby-highlight pre[class="language-text"]::before {
     content: "text";
   }
+  .gatsby-highlight pre[class="language-ruby"]::before {
+    content: "ruby";
+  }
   .gatsby-highlight pre[class="language-flow"]::before {
     content: "flow";
   }
