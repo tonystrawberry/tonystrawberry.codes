@@ -1,6 +1,6 @@
 ---
 title: "My first AWS examination"
-description:
+description: "A short report about my experience of passing the AWS Certified Cloud Practitioner examination"
 date: 2022-12-10
 draft: false
 slug: my-first-aws-examination
