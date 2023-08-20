@@ -1,32 +1,17 @@
 ---
-title: "Tech report #2 🔖 My first AWS examination and a summary of the React State Management"
-description:
+title: "A memo of the React State Management"
+description: "What I learned about React State Management"
 date: 2022-12-10
 draft: false
-slug: tech-report-2-20221210
+slug: memo-react-state-management
 tags:
-  - Report
-  - AWS
-  - Certification
   - React
   - Mobile development
 ---
 
-# I passed the AWS Certified Cloud Practitioner examination 🎉
-
-One objective I have set this year was to pass the AWS Certified Cloud Practitioner examination and I managed to pass it just in time! 😤
-
-I already had 2 years of experience of using AWS services (especially those that are often used for building web applications such as EC2, Security groups, ECS, Fargate, RDS, S3) so it was not a very difficult examination for me.
-
-To be honest, I could have skipped this one to pass the Solutions Architect Associate but I prefered to go slowly but surely 🐢 and gain confidence in my abilities. I won't say I didn't learn anything new though. I learned about many other services like AWS Organizations for centralizing the billing of multiple AWS accounts, AWS Snow family for helping migrate data from on-premises data center to the cloud and many other. You are not required to have very deep knowledge of the AWS services but you will need to learn about a lot of them.
-
-I studied approximately 1 month using the acloudguru.com website and I can say it covered everything I needed to know in order to pass the examination without issues. They also have several mock examinations in order for you to test your knowledge. I will definitely use it again for my next examination (AWS Solutions Architect Associate) in March 2023 💪
-
-I also chose to take the examination remotely from my place instead of going to the test center. It was a very smooth experience and I would recommend it to anyone to take it from home as long as yoou have a stable internet connection.
-
 # What I learned about React State Management
 
-I am now working on a personal mobile application that I planned to release next year on both the Apple App Store and Play Store (you will know more about it in the upcoming weeks).
+I am now working on a personal mobile application.
 
 And for the front-end mobile application, I chose to take advantage of React Native. Even though I already some experience developing in React from 3 years ago, I thought I needed to catch up with the latest changes (everything is changing so fast in the tech world...)
 
@@ -323,7 +308,7 @@ One common usage to keep track of a mutable value that should not trigger rerend
 
 In the below example, when `inputValue` is changed, a rerender will be trigerred but `count` will keep its previous value and won't be reset to 0.
 
-```
+```javascript
 function App() {
   const [inputValue, setInputValue] = useState("");
   const count = useRef(0);
@@ -348,7 +333,7 @@ function App() {
 
 Another use case of `useRef` is to access a DOM element and make DOM manipulation like in the example below.
 
-```
+```javascript
 function App() {
   const inputElement = useRef();
 

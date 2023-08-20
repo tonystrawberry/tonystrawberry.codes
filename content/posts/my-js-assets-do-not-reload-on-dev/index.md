@@ -1,9 +1,9 @@
 ---
-title: "Tech report #7 🔖 Rails - Why hot reload stopped working for the Javascript of my Rails application"
+title: "Why hot reload stopped working for the Javascript of my Rails application"
 description: How to fix the hot reload of Javascript assets in Rails (development environment)
 date: 2023-08-17
 draft: false
-slug: tech-report-7-rails-javascript-assets-do-not-reload-on-dev
+slug: why-hot-reload-stopped-working-for-the-javascript-of-my-rails-application
 tags:
   - Rails
   - Assets

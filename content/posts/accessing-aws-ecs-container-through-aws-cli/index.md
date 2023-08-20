@@ -1,11 +1,10 @@
 ---
-title: "Tech report #3 🔖 Accessing AWS ECS container through AWS CLI"
-description: A technical guide on how to handle emails bounced by AWS SES with a Ruby on Rails application
+title: "Accessing AWS ECS container through AWS CLI"
+description: "A compact and practical guide to access your AWS ECS container through AWS CLI"
 date: 2022-12-18
 draft: false
-slug: tech-report-3-accessing-aws-ecs-container-through-aws-cli
+slug: accessing-aws-ecs-container-through-aws-cli
 tags:
-  - Report
   - AWS
   - ECS
   - Rails

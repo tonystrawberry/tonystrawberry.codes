@@ -1,11 +1,10 @@
 ---
-title: "Tech report #5 🔖 Setting the Collation on a PostgreSQL database"
+title: "Setting the Collation on a PostgreSQL database"
 description: How to specify the way the database is sorting and comparing data
 date: 2023-01-01
 draft: false
-slug: tech-report-5-setting-the-collation-on-a-postgresql-database
+slug: setting-the-collation-on-a-postgresql-database
 tags:
-  - Report
   - Database
   - PostgreSQL
   - Sorting

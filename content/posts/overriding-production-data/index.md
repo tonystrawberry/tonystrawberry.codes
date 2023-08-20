@@ -1,9 +1,9 @@
 ---
-title: "Tech report #6 🔖 Overriding production data..."
+title: "Overriding production data..."
 description: Have you ever deleted or overriden some data in the production database? I did.
 date: 2023-01-08
 draft: false
-slug: tech-report-6-overriding-production-data
+slug: overriding-production-data-blunder
 tags:
   - AWS
   - Database

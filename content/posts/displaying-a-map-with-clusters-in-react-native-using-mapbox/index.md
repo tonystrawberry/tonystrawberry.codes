@@ -1,11 +1,10 @@
 ---
-title: "Tech report #4 🔖 Displaying a map with clusters in React Native using Mapbox"
+title: "Displaying a map with clusters in React Native using Mapbox"
 description: A technical guide on how to show clusters depending on zoom level on a Mapbox map
 date: 2022-12-25
 draft: false
-slug: tech-report-4-displaying-a-map-with-clusters-in-react-native-using-mapbox
+slug: displaying-a-map-with-clusters-in-react-native-using-mapbox
 tags:
-  - Report
   - React Native
   - Mapbox
   - Map
