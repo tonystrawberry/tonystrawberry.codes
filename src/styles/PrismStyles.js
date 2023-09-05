@@ -158,6 +158,9 @@ const PrismStyles = css`
   .gatsby-highlight pre[class="language-flow"]::before {
     content: "flow";
   }
+  .gatsby-highlight pre[class="language-hcl"]::before {
+    content: "hcl";
+  }
 
   /* Prism Styles */
   .token {
