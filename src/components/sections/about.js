@@ -153,7 +153,7 @@ const About = () => {
               >
                 a start-up
               </a>
-              that helped me become even better at my craft.
+               that helped me become even better at my craft.
             </p>
 
             <p>
