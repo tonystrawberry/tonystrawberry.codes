@@ -2,7 +2,7 @@
 title: "An introduction to Kubernetes"
 description: "An introduction to Kubernetes, the container orchestration tool"
 date: 2024-04-15
-draft: false
+draft: true
 slug: an-introduction-to-kubernetes
 tags:
   - Kubernetes
