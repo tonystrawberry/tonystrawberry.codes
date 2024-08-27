@@ -1,17 +1,18 @@
 ---
-title: Where to put logic in a Rails application
-description: It might be difficult to decide where to put logic in a Rails application. Here are some tips to help you decide.
+title: Isolate business logic in Rails with Service Objects
+description: It might be difficult to decide where to organize logic in a Rails application. Service objects might be the answer.
 date: 2024-08-26
 draft: false
 slug: where-to-put-logic-in-a-rails-application
 tags:
   - Rails
   - Ruby
+  - Design Patterns
 ---
 
 Hello! 👋
 
-Today, I want to share with you some tips on where to put logic in a Rails application.
+Today, I want to share a design pattern that can help you isolate business logic in a Rails application: service objects.
 
 When you're building a Rails application, you might find yourself wondering where to put your logic. Should you put it in the controller, the model, or maybe in a service object? It can be difficult to decide, especially if you're new to Rails.
 
