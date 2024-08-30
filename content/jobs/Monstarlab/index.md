@@ -7,6 +7,6 @@ range: "April 2022 - Present"
 url: "https://monstar-lab.com/global/"
 ---
 
-- Architect, develop, maintain and test web applications for clients
-- Write some blog posts on the technical blog of Monstarlab (https://engineering.monstar-lab.com/en/)
-- Did a internal presentation and demo about Blockchain & Solidity
+- Architect, develop, maintain and test web applications in Ruby on Rails and AWS technologies
+- Lead teams in developing web applications by providing technical and architectural guidance, conducting thorough code reviews, and ensuring best practices in software design and development.
+- Collaborate with project managers, designers, and clients to deliver high-quality web applications
