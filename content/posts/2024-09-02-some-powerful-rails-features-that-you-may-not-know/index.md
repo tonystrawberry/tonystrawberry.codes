@@ -1,5 +1,5 @@
 ---
-title: "Generated columns: a useful database feature in Rails"
+title: "Generated columns: how to use this useful feature in Rails"
 description: Learn how to use generated columns in Rails to improve performance and simplify your code
 date: 2024-09-02
 draft: false
